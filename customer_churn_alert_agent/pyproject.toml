@@ -1,0 +1,11 @@
+[project]
+name = "customer-churn-alert-agent"
+version = "0.2.0"
+description = "Stable multi-agent customer churn analysis with deterministic scoring and Groq"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-groq>=1.1.3",
+    "pydantic>=2.13.0",
+    "python-dotenv>=1.0.0",
+]
